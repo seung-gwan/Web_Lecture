@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input:disabled {
+            background-color : lightgray;
+            color : gray;
+        }
+        input:checked {
+            accent-color: rgb(255, 0, 195);
+        }
+        input:focus {
+            background-color : lightgreen; 
+        }
+        input:enabled {
+            border: 2px solid blue;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h2>회원가입</h2>
+
+    <p>
+        이름 : 
+        <input type = "text" placeholder="이름">
+    </p>
+    <p>
+        학번 : 
+        <input type = "text" value = "12345678" disabled>
+    </p>
+    <p>
+        <input type = "checkbox">
+        개인정보 수집 동의
+
+    </p>
+    
+</body>
+</html>
