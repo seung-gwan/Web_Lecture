@@ -1,0 +1,21 @@
+input:disabled {
+            background-color : lightgray;
+            color : gray;
+        }
+        input:checked {
+            accent-color: rgb(255, 0, 195);
+        }
+        input:focus {
+            background-color : lightgreen; 
+        }
+        input:enabled {
+            border: 2px solid blue;
+        }
+
+
+        #123123{
+
+        }
+        .야호{
+            
+        }
