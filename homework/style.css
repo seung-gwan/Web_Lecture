@@ -1,0 +1,194 @@
+body {
+    margin : 0;
+    font-family : Arial, sans-serif;
+    background-color : white;
+    color : black;
+}
+
+#top {
+    max-width : 800px;
+    margin : 40px auto;
+    background-color : white;
+    border : 1px solid black;
+    border-radius : 12px;
+    overflow : hidden;
+    
+}
+
+header {
+    background-color : navy;
+    color : white;
+    text-align : center;
+    padding : 30px;
+}
+header h1 {
+    font-size : 40px;
+    font-weight : 700px;
+    
+}
+header p {
+    font-style : italic;
+
+}
+
+#name {
+    display : flex;
+    align-items : center;
+    gap : 30px;
+    margin : 30px;
+    padding : 20px;
+    background-color: lightblue;
+    border-radius : 10px;
+}
+#name img {
+    width : 130px;
+    height : 130px; 
+    border-radius : 50%;
+    border : 4px solid white;
+
+}
+
+
+#skill {
+    margin : 30px;
+    padding : 20px;
+    background-color : rgb(231, 235, 255);
+    border : 1px solid #b1b1b1;
+    border-radius : 8px;
+}
+
+
+#skill h1{
+    color : navy;
+    border-bottom : 2px solid navy;
+
+}
+
+
+#skill ul {
+    display : flex;    
+    gap : 12px;
+    margin : 0;
+    padding : 0;
+    list-style : none;
+
+}
+
+#skill li:hover {
+    background-color: navy;
+    color : white;
+    cursor : pointer;
+}
+
+#skill li {
+  padding: 8px 16px;
+  border-radius: 100px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+#skill li:nth-child(1) {
+    background-color: lightgreen;
+}
+#skill li:nth-child(2) {
+    background-color: lightpink;
+}
+#skill li:nth-child(3) {
+    background-color: lightgray;
+}
+#skill li:nth-child(4) {
+    background-color: lightpink;
+}
+
+
+#soge {
+    margin : 30px;
+    padding : 20px;
+    background-color : rgb(231, 235, 255);
+    border : 1px solid lightgray;
+    border-radius : 10px;
+}
+
+#soge h1 {
+    color : navy;
+    border-bottom : 2px solid navy;
+}
+
+
+#mun {
+    margin : 30px;
+    padding : 20px;
+    background-color : rgb(231, 235, 255);
+    border : 1px solid lightgray;
+    border-radius : 10px;
+}
+#mun h1 {
+    color : navy;
+    border-bottom : 2px solid navy;
+}
+
+#mun label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+#mun input[type="text"] {
+    width : 300px;
+    padding : 10px;
+    margin : 10px 0;
+    border : 1px solid gray;
+    border-radius : 5px;
+    background-color: lightcyan;
+
+}
+#mun input[type="email"] {
+    width : 300px;
+    padding : 10px;
+    margin : 10px 0;
+    border : 1px solid gray;
+    border-radius : 5px;
+    background-color: lightyellow;
+
+}
+
+#mun input[type="text"]:focus{
+    background-color : white;
+    border : 2px solid blue;
+    outline : none;
+}
+
+#mun input[type="email"]:focus{
+    background-color : white;
+    border : 2px solid green;
+    outline : none;
+}
+
+#mun input[type="submit"] {
+    width : 150px;
+    padding : 15px;
+    margin : 10px auto 0;
+    background-color : rgb(94, 94, 94) ;
+    color : white;
+    border : none;
+    border-radius : 5px;
+    font-size : 15px;
+    cursor : pointer;
+}
+
+#mun input[type="submit"]:hover{
+    background-color : blue;
+}
+
+#mun input[type="submit"]:active {
+    background-color : white;
+}
+
+footer {
+    background-color : blue;
+    color : white;
+    text-align : center;
+    padding : 20px;
+}
+
+
