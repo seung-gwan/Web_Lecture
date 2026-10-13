@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 6px 8px;
+    
+}
+
+.header {
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 34px;
+    background: #520000;
+}
+
+.header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+    color: white;
+}
+
+.header p {
+    margin: 6px 0 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+
+
+.menu {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    background: #6d1616;
+}
+
+.menu-item {
+    float: left;
+    width: 20%;
+    height: 54px;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #ffffff;
+    text-align: center;
+    line-height: 54px;
+    font-size: 16px;
+    color: white;
+}
+
+.menu-item:last-child {
+    border-right: none;
+}
+
+.container {
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: white;
+}
+
+
+.PROFILE {
+    float: left;
+    width: 25%;
+    height: 275px;
+    margin: 0;
+    padding: 26px 24px;
+    background: rgb(255, 205, 205);
+}
+
+.PROFILE h3 {
+    margin: 0 0 16px;
+    font-size: 24px;
+    color: #6d1616;
+    
+}
+
+.PROFILE p {
+    margin: 0 0 12px;
+    font-size: 16px;
+}
+
+
+.PROJECT {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 275px;
+    margin: 0;
+    padding: 26px 24px;
+    
+}
+
+.PROJECT h2 {
+     margin: 0 0 14px;
+    line-height: 24px;
+    color: #6d1616;
+}
+
+
+.PROJECT h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.PROJECT p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.PROJECT1,
+.PROJECT2 {
+    width: 100%;
+    padding: 15px 14px;
+    border: 2px solid rgb(253, 179, 179);
+    background: #fff2f2;
+}
+.PROJECT1 {
+    margin-bottom: 18px;
+}
+
+
+.SKILLS {
+    box-sizing: border-box;
+    float: left;
+    width: 200px;
+    height: 275px;
+    margin: 0;
+    padding: 26px 24px;
+    background: rgb(255, 205, 205);
+
+}
+
+.SKILLS h2 {
+    margin: 0 0 14px;
+    line-height: 24px;
+    color: #6d1616;
+}
+
+.SKILLS-item {
+    margin: 0 0 12px;
+    font-size: 16px;
+}
+
+
+
+
+.footer {
+    width: 800px;
+    height: 64px;
+    margin: 0 auto;
+    background: #382626;
+    text-align: center;
+    line-height: 64px;
+    font-size: 16px;
+    color: white;
+}
