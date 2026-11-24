@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2 id = "message">JavaScript 클릭 이벤트</h2>
+    <button id = "btn">클릭이오</button>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let message = document.querySelector("#message");
+
+        btn.addEventListener("click", function() {
+            message.textContent = "버튼이 클릭되었습니다.";
+            message.style.color = "blue";
+            document.body.style.backgroundColor = "lightyellow";
+            
+        })
+
+
+
+
+    </script>
+
+
+
+    
+</body>
+</html>
